@@ -1,15 +1,16 @@
 {
-  "name": "yaml-template-diff",
+  "name": "diff-docker-compose",
   "version": "1.0.0",
-  "description": "Diff a yaml file against the template from which it is derived",
+  "description": "Diffs a docker-compose.yml file against the template from which it is derived",
   "main": "index.js",
-  "repository": "https://github.com/adamdicarlo/yaml-template-diff",
+  "repository": "https://github.com/adamdicarlo/diff-docker-compose",
   "author": "Adam DiCarlo <adam.dicarlo@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",
     "js-yaml": "^3.8.2",
     "jsondiffpatch": "^0.2.4",
+    "lodash.groupby": "^4.6.0",
     "yargs": "^7.0.2"
   },
   "devDependencies": {

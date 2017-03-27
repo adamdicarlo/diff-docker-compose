@@ -1,7 +1,7 @@
 {
   "name": "diff-docker-compose",
   "version": "1.0.0",
-  "description": "Diffs a docker-compose.yml file against the template from which it is derived",
+  "description": "Diffs two docker-compose.yml files",
   "main": "index.js",
   "bin": {
     "diff-docker-compose": "index.js"

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Diffs a docker-compose.yml file against the template from which it is derived",
   "main": "index.js",
+  "bin": {
+    "diff-docker-compose": "index.js"
+  },
   "repository": "https://github.com/adamdicarlo/diff-docker-compose",
   "author": "Adam DiCarlo <adam.dicarlo@gmail.com>",
   "license": "MIT",
